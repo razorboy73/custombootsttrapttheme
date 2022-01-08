@@ -17,7 +17,7 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <? php wp_footer()?>
+    <?php wp_footer()?>
 
     
   </body>
