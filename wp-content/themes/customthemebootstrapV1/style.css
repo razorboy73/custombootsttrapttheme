@@ -8,7 +8,9 @@ Version: 0.69
 License: No for public use
 
 */
-
+body {
+  background-color: #f8f9fa;
+}
 .dropdown-menu {
   font-size: small !important;
 }
