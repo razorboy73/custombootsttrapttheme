@@ -8,3 +8,7 @@ Version: 0.69
 License: No for public use
 
 */
+
+.dropdown-menu {
+  font-size: small !important;
+}
