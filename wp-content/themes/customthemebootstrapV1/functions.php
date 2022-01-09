@@ -13,5 +13,7 @@ function theme_files(){
 
 add_action( wp_enqueue_scripts, theme_files() );
 
+//Title Tag Support
 
+add_theme_support('title-tag');
 ?>
