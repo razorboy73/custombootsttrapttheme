@@ -18,10 +18,7 @@
   <div class="container">
     <a class="navbar-brand" href="<?php echo bloginfo('url')?>">
       <img src="<?php echo get_template_directory_uri();?>/img/frshminds-logo-186-40-logo.png" alt="">
-    
-    
-    
-    Navbar</a>
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
