@@ -12,3 +12,7 @@ License: No for public use
 .dropdown-menu {
   font-size: small !important;
 }
+
+.navbar-brand {
+  width: 125px;
+}
