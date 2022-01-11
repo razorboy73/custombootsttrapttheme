@@ -35,8 +35,10 @@
             ));
             ?>
       <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+      <div class="input-group mb-3">
+        <input type="search" class="form-control form-control-sm" placeholder="Search for..." aria-label="Search" aria-describedby="search-btn">
+        <button class="btn btn-success" type="submit" id="search-btn">Button</button>
+      </div>
       </form>
     </div>
   </div>
