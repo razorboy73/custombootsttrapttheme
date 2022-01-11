@@ -9,6 +9,9 @@
               <div class="col-lg-4 col-md-4">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="<?php echo get_the_title();?>" >
               </div>
+              <div class="col-lg-8 col-md-8">
+                <h3>ipsum dolor sit amet consectetur, adipisicing elit.</h3> 
+              </div>
             </div>
           </a>
         </div>
