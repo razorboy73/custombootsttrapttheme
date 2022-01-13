@@ -21,3 +21,7 @@ body {
 .navbar-brand img {
   width: 125px;
 }
+
+.fw-100 {
+  font-weight: 600;
+}
