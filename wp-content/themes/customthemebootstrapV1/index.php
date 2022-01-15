@@ -4,6 +4,8 @@
     <div class="row">
       <div class="col-lg-9 col-md-9">
         <div class="list-group">
+
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <a href="#" class="list-group-item list-group-item-action small">
             <div class="row align-items-center">
               <div class="col-lg-4 col-md-4">
@@ -15,6 +17,9 @@
               </div>
             </div>
           </a>
+          <?php endwhile; else : ?>
+	          <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+            <?php endif; ?>
         </div>
       </div>
       <div class="col-lg-3 col-md-3"></div>
