@@ -13,7 +13,7 @@
               </div>
               <div class="col-lg-8 col-md-8">
                 <h3 class="fs-5 fw-600"><?php echo get_the_title(); ?></h3> 
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque esse dolores tempore adipisci dolore in minima dolorem? Quas eveniet, assumenda nesciunt velit excepturi modi adipisci! Obcaecati fuga officiis accusamus repudiandae!</p>
+                <p><?php echo get_the_excerpt( ) ?></p>
               </div>
             </div>
           </a>
