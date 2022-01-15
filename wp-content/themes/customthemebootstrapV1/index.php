@@ -12,7 +12,7 @@
                 <img class="img-fluid rounded" src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="<?php echo get_the_title();?>" >
               </div>
               <div class="col-lg-8 col-md-8">
-                <h3 class="fs-5 fw-600"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3> 
+                <h3 class="fs-5 fw-600"><?php echo get_the_title(); ?></a></h3> 
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque esse dolores tempore adipisci dolore in minima dolorem? Quas eveniet, assumenda nesciunt velit excepturi modi adipisci! Obcaecati fuga officiis accusamus repudiandae!</p>
               </div>
             </div>
