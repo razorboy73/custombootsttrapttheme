@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <section class="default-holder top-margin">
   <div class="container mt-5">
-    <div class="row">
+    <div class="row mb-3">
       <div class="col-lg-9 col-md-9">
         <div class="list-group">
 
@@ -35,7 +35,7 @@
       </div>
       <div class="col-lg-3 col-md-3">
           
-          <aside class="card sm">
+          <aside class="card sm mb-3">
             <h3 class="card-header fs-6">Widget Name</h3>
              <ul class="list-group list-group-flush">
                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Item 1</li>
