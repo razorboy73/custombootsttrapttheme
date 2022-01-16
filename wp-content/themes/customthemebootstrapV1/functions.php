@@ -26,18 +26,7 @@ function wpdocs_after_setup_theme() {
 }
 add_action( 'after_setup_theme', 'wpdocs_after_setup_theme' );
 
-//excerpt length
-function mytheme_custom_excerpt_length( $length ) {
-  return 20;
-}
-add_filter( 'excerpt_length', 'mytheme_custom_excerpt_length', 999 );
 
-// Changing excerpt more
-function new_excerpt_more($more) {
-  global $post;
-  return 'Read More &raquo;';
-  }
-  add_filter('excerpt_more', 'new_excerpt_more');
 
 
 // bootstrap 5 wp_nav_menu walker
