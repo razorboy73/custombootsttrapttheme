@@ -35,7 +35,7 @@ add_filter( 'excerpt_length', 'mytheme_custom_excerpt_length', 999 );
 // Changing excerpt more
 function new_excerpt_more($more) {
   global $post;
-  return '… <a href="'. get_permalink($post->ID) . '">' . 'Read More &raquo;' . '</a>';
+  return 'Read More &raquo;';
   }
   add_filter('excerpt_more', 'new_excerpt_more');
 

@@ -6,7 +6,7 @@
         <div class="list-group">
 
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-          <a href="#" class="list-group-item list-group-item-action small">
+          <a href="<?php the_permalink();?>" class="list-group-item list-group-item-action small">
             <div class="row align-items-center">
               <div class="col-lg-4 col-md-4">
                 <img class="img-fluid rounded" src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="<?php echo get_the_title();?>" >
