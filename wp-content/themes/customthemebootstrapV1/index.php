@@ -33,7 +33,10 @@
             <?php endif; ?>
         </div>
       </div>
-      <div class="col-lg-3 col-md-3"></div>
+      <div class="col-lg-3 col-md-3">
+            side bar
+
+      </div>
     </div>
   </div>
 </section>
