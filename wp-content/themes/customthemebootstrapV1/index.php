@@ -37,6 +37,12 @@
           
           <aside class="card">
             <h3 class="fs-5">Widget Name</h3>
+             <ul class="list-group">
+               <li class="list-group-item"><a href="#">Item 1</li>
+               <li class="list-group-item"><a href="#">Item 2</li>
+               <li class="list-group-item"><a href="#">Item 3</li>
+               <li class="list-group-item"><a href="#">Item 4</li>
+             </ul>
           </aside>
 
       </div>
