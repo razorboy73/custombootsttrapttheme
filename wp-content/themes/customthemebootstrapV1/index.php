@@ -35,7 +35,7 @@
       </div>
       <div class="col-lg-3 col-md-3">
         <?php if ( is_active_sidebar( 'default_sidebar' ) ) : ?>
-			  <?php dynamic_sidebar( 'default_sidebar' ); ?>
+			      <?php dynamic_sidebar( 'default_sidebar' ); ?>
 	      </div><!-- #primary-sidebar -->
         <?php endif; ?>
           <aside class="card sm mb-3">

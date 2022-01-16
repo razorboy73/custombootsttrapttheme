@@ -18,7 +18,7 @@ add_action( wp_enqueue_scripts, theme_files() );
 add_theme_support('title-tag');
 
 
-<?php
+
 /**
  * Register our sidebars and widgetized areas.
  *
@@ -36,7 +36,7 @@ function custom_widgets() {
 
 }
 add_action( 'widgets_init', 'custom_widgets' );
-?>
+
 
 //thumbnail support
 
