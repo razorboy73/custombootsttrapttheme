@@ -16,6 +16,10 @@ html {
 body {
   background-color: #f8f9fa !important;
 }
+
+.top-margin {
+  margin-top: 20px;
+}
 .navbar {
   padding-bottom: 30px;
 }
