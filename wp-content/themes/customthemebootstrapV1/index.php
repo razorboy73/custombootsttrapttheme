@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section class="default-holder mt-5 top-margin">
+<section class="default-holder top-margin">
   <div class="container mt-5">
     <div class="row">
       <div class="col-lg-9 col-md-9">
