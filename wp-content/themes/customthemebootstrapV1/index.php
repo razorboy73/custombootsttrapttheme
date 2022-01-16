@@ -35,7 +35,7 @@
       </div>
       <div class="col-lg-3 col-md-3">
           
-          <aside class="card">
+          <aside class="card sm">
             <h3 class="card-header fs-6">Widget Name</h3>
              <ul class="list-group list-group-flush">
                <li class="list-group-item"><a href="#">Item 1</li>
