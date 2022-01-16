@@ -17,6 +17,10 @@ add_action( wp_enqueue_scripts, theme_files() );
 
 add_theme_support('title-tag');
 
+//thumbnail support
+
+	
+add_theme_support( 'post-thumbnails' );
 
 /**
  * Add HTML5 theme support.
