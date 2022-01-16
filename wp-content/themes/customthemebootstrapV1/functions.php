@@ -17,6 +17,27 @@ add_action( wp_enqueue_scripts, theme_files() );
 
 add_theme_support('title-tag');
 
+
+<?php
+/**
+ * Register our sidebars and widgetized areas.
+ *
+ */
+function custom_widgets() {
+
+	register_sidebar( array(
+		'name'          => 'Default Sidebar',
+		'id'            => 'default_sidebar',
+		'before_widget' => '<aside class="card sm mb-3">',
+		'after_widget'  => ' </aside>',
+		'before_title'  => '<h3 class="card-header fs-6">',
+		'after_title'   => '</h3>',
+	) );
+
+}
+add_action( 'widgets_init', 'custom_widgets' );
+?>
+
 //thumbnail support
 
 	

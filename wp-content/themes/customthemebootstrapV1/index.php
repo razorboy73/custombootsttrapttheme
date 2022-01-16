@@ -34,7 +34,10 @@
         </div>
       </div>
       <div class="col-lg-3 col-md-3">
-          
+        <?php if ( is_active_sidebar( 'default_sidebar' ) ) : ?>
+			  <?php dynamic_sidebar( 'default_sidebar' ); ?>
+	      </div><!-- #primary-sidebar -->
+        <?php endif; ?>
           <aside class="card sm mb-3">
             <h3 class="card-header fs-6">Widget Name</h3>
              <ul class="list-group list-group-flush">
