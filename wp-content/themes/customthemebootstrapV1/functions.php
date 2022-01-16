@@ -32,12 +32,12 @@ function mytheme_custom_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'mytheme_custom_excerpt_length', 999 );
 
-// Replaces the excerpt "Read More" text by a link
+// Changing excerpt more
 function new_excerpt_more($more) {
   global $post;
-return '<a class="moretag" href="'. get_permalink($post->ID) . '"> Read the full article...</a>';
-}
-add_filter('excerpt_more', 'new_excerpt_more');
+  return '… <a href="'. get_permalink($post->ID) . '">' . 'Read More &raquo;' . '</a>';
+  }
+  add_filter('excerpt_more', 'new_excerpt_more');
 
 
 // bootstrap 5 wp_nav_menu walker
