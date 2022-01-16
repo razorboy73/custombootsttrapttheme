@@ -8,6 +8,11 @@ Version: 0.69
 License: No for public use
 
 */
+
+html {
+  padding: 0px;
+  margin: 0px;
+}
 body {
   background-color: #f8f9fa !important;
 }
