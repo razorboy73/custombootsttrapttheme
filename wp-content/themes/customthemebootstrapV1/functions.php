@@ -26,7 +26,8 @@ function wpdocs_after_setup_theme() {
 }
 add_action( 'after_setup_theme', 'wpdocs_after_setup_theme' );
 
-
+//add excerpt support page
+add_post_type_support( 'page', 'excerpt' );
 
 
 // bootstrap 5 wp_nav_menu walker
