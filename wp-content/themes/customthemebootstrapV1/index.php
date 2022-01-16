@@ -34,7 +34,10 @@
         </div>
       </div>
       <div class="col-lg-3 col-md-3">
-            side bar
+          
+          <aside class="card">
+            <h3 class="fs-5">Widget Name</h3>
+          </aside>
 
       </div>
     </div>
