@@ -10,7 +10,7 @@
     </div>
 </footer>
 
-<div class="copy bg-dark">
+<div class="copy bg-dark pb-3 pt-3">
     <div class="container">
         <div class="row">
             <div class="col text-center">
