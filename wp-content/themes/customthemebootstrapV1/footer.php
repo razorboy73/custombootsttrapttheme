@@ -13,8 +13,8 @@
 <div class="copy">
     <div class="container">
         <div class="row">
-            <div class="col-text-center">
-                <p class="small">Copyright &copy; <?php echo date("Y") ?></p>
+            <div class="col text-center">
+                <p class="small m-0">Copyright &copy; <?php echo date("Y") ?></p>
 
             </div>
         </div>
