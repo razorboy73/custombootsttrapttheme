@@ -5,5 +5,7 @@
     $(".default_sidebar > ul >li >a ").addClass(
       "text-decoration-none text-dark"
     );
+
+    $(".footer_widget > ul").addClass("list-unstyled");
   });
 })(jQuery);
