@@ -29,7 +29,7 @@ function custom_widgets() {
 	register_sidebar( array(
 		'name'          => 'Default Sidebar',
 		'id'            => 'default_sidebar',
-		'before_widget' => '<aside class="card sm mb-3">',
+		'before_widget' => '<aside class="card sm mb-3 default_sidebar">',
 		'after_widget'  => ' </aside>',
 		'before_title'  => '<h3 class="card-header fs-6">',
 		'after_title'   => '</h3>',
