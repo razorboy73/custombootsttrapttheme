@@ -35,6 +35,15 @@ function custom_widgets() {
 		'after_title'   => '</h3>',
 	) );
 
+  register_sidebar( array(
+		'name'          => 'Footer Widgets',
+		'id'            => 'footer_widgets',
+		'before_widget' => '<div class="col-lg-3 col-md-3"><div class="footer_widget">',
+		'after_widget'  => '</div></div>',
+		'before_title'  => '<h4 class="fs-6">',
+		'after_title'   => '</h4>',
+	) );
+
 }
 add_action( 'widgets_init', 'custom_widgets' );
 
