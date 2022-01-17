@@ -10,11 +10,11 @@
     </div>
 </footer>
 
-<div class="copy">
+<div class="copy bg-dark">
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <p class="small m-0">Copyright &copy; <?php echo date("Y") ?></p>
+                <p class="small m-0 text-white">Copyright &copy; <?php echo date("Y") ?></p>
 
             </div>
         </div>
