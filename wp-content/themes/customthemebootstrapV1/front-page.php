@@ -10,18 +10,6 @@
 get_header(); ?>
 
 <section class="default-holder">
-blah<br>
-blah<br>
-blah<br>
-blah<br>
-blah<br>
-blah<br>
-blah<br>
-blah<br>
-blah<br>
-blah<br>
-blah<br>
-blah<br>
 
 </section>
 
