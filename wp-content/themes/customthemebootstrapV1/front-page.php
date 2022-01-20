@@ -9,9 +9,9 @@
  */
 get_header(); ?>
 
-<section class="default-holder">
-
-</section>
+<header class="default-holder">
+test this layout
+</header>
 
 
 
