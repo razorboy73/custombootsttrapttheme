@@ -26,6 +26,15 @@ add_theme_support('title-tag');
  */
 function custom_widgets() {
 
+  register_sidebar( array(
+		'name'          => 'Front Page Banner Text',
+		'id'            => 'front_page_banner_text',
+		'before_widget' => '<div class="banner-text">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1 class="fs-4">',
+		'after_title'   => '</h1>',
+	) );
+
 	register_sidebar( array(
 		'name'          => 'Default Sidebar',
 		'id'            => 'default_sidebar',
