@@ -19,7 +19,7 @@ get_header(); ?>
              </div>
          </div>
          <div class="col-lg-6 col-md-6">
-             <img src="<?php echo get_template_uri();?>/img/placeholder.jpg" alt="" srcset="">
+             <img src="<?php echo get_template_directory_uri();?>/img/placeholder.jpg" alt="" srcset="">
          </div>
      </div>
  </div>
