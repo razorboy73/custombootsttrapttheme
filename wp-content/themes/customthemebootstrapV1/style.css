@@ -17,6 +17,10 @@ body {
   background-color: #f8f9fa !important;
 }
 
+.default-holder {
+  margin-top: 65px;
+}
+
 .top-margin {
   margin-top: 75px;
 }
