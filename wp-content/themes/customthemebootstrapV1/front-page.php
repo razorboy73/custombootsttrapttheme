@@ -16,6 +16,7 @@ get_header(); ?>
          <?php if ( is_active_sidebar( 'front_page_banner_text' ) ) : ?>
 			      <?php dynamic_sidebar( 'front_page_banner_text' ); ?>
             <?php endif; ?>
+            <a href="#" class="btn btn-sm btn-success"></a>
          </div>
          <div class="col-lg-6 col-md-6">
          <?php if ( is_active_sidebar( 'front_page_banner_image' ) ) : ?>
