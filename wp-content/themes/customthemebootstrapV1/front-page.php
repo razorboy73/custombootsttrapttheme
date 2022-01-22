@@ -18,8 +18,10 @@ get_header(); ?>
             <?php endif; ?>
          </div>
          <div class="col-lg-6 col-md-6">
-             <img class="img-fluid rounded" src="<?php echo get_template_directory_uri();?>/img/placeholder.jpg" alt="" srcset="">
-         </div>
+         <?php if ( is_active_sidebar( 'front_page_banner_image' ) ) : ?>
+			      <?php dynamic_sidebar( 'front_page_banner_image' ); ?>
+            <?php endif; ?>
+             </div>
      </div>
  </div>
 </header>

@@ -35,6 +35,15 @@ function custom_widgets() {
 		'after_title'   => '</h1>',
 	) );
 
+  register_sidebar( array(
+		'name'          => 'Front Page Banner Image',
+		'id'            => 'front_page_banner_image',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => '',
+	) );
+
 	register_sidebar( array(
 		'name'          => 'Default Sidebar',
 		'id'            => 'default_sidebar',
