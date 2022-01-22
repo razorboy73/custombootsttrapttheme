@@ -22,24 +22,7 @@ get_header(); ?>
             </svg>
                 Sign Up To Get Started</a>
          </div>
-         <!-- Modal -->
-                <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        ...
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                    </div>
-                </div>
-                </div>
+    
          <div class="col-lg-6 col-md-6">
          <?php if ( is_active_sidebar( 'front_page_banner_image' ) ) : ?>
 			      <?php dynamic_sidebar( 'front_page_banner_image' ); ?>
