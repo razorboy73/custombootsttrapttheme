@@ -27,11 +27,18 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Sign Up To Get Started</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        ...
+                        <form>
+                            <input type="text" class="form-control form-control-sm" placeholder="Your Name" required>
+                            <input type="email" class="form-control form-control-sm" placeholder="Your email" required>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary" type="button">Button</button>
+                                <button class="btn btn-primary" type="button">Button</button>
+                            </div>
+                        </form>
                     </div>
                   
                     </div>
