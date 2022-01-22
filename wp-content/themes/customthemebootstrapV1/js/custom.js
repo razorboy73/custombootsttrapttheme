@@ -10,5 +10,7 @@
     $(".footer_widget > ul >li >a ").addClass(
       "text-decoration-none text-white"
     );
+
+    $(".main-header img").addClass("rounded");
   });
 })(jQuery);
