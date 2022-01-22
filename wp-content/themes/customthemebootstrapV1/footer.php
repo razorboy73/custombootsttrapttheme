@@ -35,8 +35,8 @@
                             <input type="text" class="form-control form-control-sm" placeholder="Your Name" required>
                             <input type="email" class="form-control form-control-sm" placeholder="Your email" required>
                             <div class="d-grid gap-2">
-                                <button class="btn btn-primary" type="button">Button</button>
-                                <button class="btn btn-primary" type="button">Button</button>
+                                
+                                <button class="btn btn-primary" type="submit">Sign Up to Get Started</button>
                             </div>
                         </form>
                     </div>
