@@ -101,31 +101,31 @@ get_header(); ?>
                 <a href="#" class="card text-decoration-none text-dark text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Job-Oriented-Courses-in-Bangalore.jpg" alt="jobs">
                     <div class="card-body">
-                        <h3 class="m-0 fs-6 fw-600">Job Orientated Course</h3>
+                        <h3 class="m-0 fs-6 fw-600">Job Orientated Courses</h3>
                     </div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-3">
                 <a href="#" class="card text-decoration-none text-dark text-center">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/Job-Oriented-Courses-in-Bangalore.jpg" alt="jobs">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Certification-Courses-in-Bangalore.jpg" alt="jobs">
                     <div class="card-body">
-                        <h3 class="m-0 fs-6 fw-600">Job Orientated Course</h3>
+                        <h3 class="m-0 fs-6 fw-600">Certification Courses</h3>
                     </div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-3">
                 <a href="#" class="card text-decoration-none text-dark text-center">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/Job-Oriented-Courses-in-Bangalore.jpg" alt="jobs">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Online-Courses-in-Bangalore.jpg" alt="jobs">
                     <div class="card-body">
-                        <h3 class="m-0 fs-6 fw-600">Job Orientated Course</h3>
+                        <h3 class="m-0 fs-6 fw-600">Online Courses</h3>
                     </div>
                 </a>
             </div>
             <div class="col-lg-3 col-md-3">
                 <a href="#" class="card text-decoration-none text-dark text-center">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/Job-Oriented-Courses-in-Bangalore.jpg" alt="jobs">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Short-Term-Courses-in-Bangalore.jpg" alt="jobs">
                     <div class="card-body">
-                        <h3 class="m-0 fs-6 fw-600">Job Orientated Course</h3>
+                        <h3 class="m-0 fs-6 fw-600">Short Term Courses</h3>
                     </div>
                 </a>
             </div>
