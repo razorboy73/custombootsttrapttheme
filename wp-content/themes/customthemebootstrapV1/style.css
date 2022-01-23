@@ -48,3 +48,7 @@ body {
   height: auto;
   padding-left: 10px;
 }
+
+.main-content h2 {
+  font-size: 1.3em;
+}
