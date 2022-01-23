@@ -46,4 +46,5 @@ body {
 .feature-holder img {
   width: 50px;
   height: auto;
+  padding-left: 10px;
 }

@@ -34,7 +34,7 @@ get_header(); ?>
  </div>
 </header>
 
-<section class="features mt-5">
+<section class="features pt-5 pb-3 mt-3">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4">
@@ -50,26 +50,26 @@ get_header(); ?>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4">
-                <div class="d-flex align-items-center feature-holder">
+            <div class="d-flex align-items-center feature-holder small border rounded mb-3">
                     <div class="flex-shrink-0">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/time.png" alt="time">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/time.png" alt="time">
                     </div>
                     <div class="flex-grow-1 ms-3">
-                    <h3>A simple H3 title</h3>
-                    <p>This is some content from a media component. You can replace this with any content and adjust it as needed.
+                    <h3 class="fs-6 fw-600 mt-3" >Simple H3 Feature</h3>
+                        <p>This is some content from a media component. You can replace this with any content and adjust it as needed.
                     </p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4">
-                <div class="d-flex align-items-center feature-holder">
+            <div class="d-flex align-items-center feature-holder small border rounded mb-3">
                     <div class="flex-shrink-0">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/time.png" alt="time">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/time.png" alt="time">
                     </div>
                     <div class="flex-grow-1 ms-3">
-                    <h3>A simple H3 title</h3>
-                    <p>This is some content from a media component. You can replace this with any content and adjust it as needed.
-                    </p>  
+                    <h3 class="fs-6 fw-600 mt-3" >Simple H3 Feature</h3>
+                        <p>This is some content from a media component. You can replace this with any content and adjust it as needed.
+                    </p>
                     </div>
                 </div>
             </div>
