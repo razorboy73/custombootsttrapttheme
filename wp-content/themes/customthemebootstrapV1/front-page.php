@@ -43,6 +43,7 @@ get_header(); ?>
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/time.png" alt="time">
                     </div>
                     <div class="flex-grow-1 ms-3">
+                    <h3>A simple H3 title</h3>
                         <p>This is some content from a media component. You can replace this with any content and adjust it as needed.
                     </p>
                     </div>
@@ -54,6 +55,7 @@ get_header(); ?>
                         <img src="<?php echo get_template_directory_uri(); ?>/img/time.png" alt="time">
                     </div>
                     <div class="flex-grow-1 ms-3">
+                    <h3>A simple H3 title</h3>
                     <p>This is some content from a media component. You can replace this with any content and adjust it as needed.
                     </p>
                     </div>
@@ -65,6 +67,7 @@ get_header(); ?>
                         <img src="<?php echo get_template_directory_uri(); ?>/img/time.png" alt="time">
                     </div>
                     <div class="flex-grow-1 ms-3">
+                    <h3>A simple H3 title</h3>
                     <p>This is some content from a media component. You can replace this with any content and adjust it as needed.
                     </p>  
                     </div>
