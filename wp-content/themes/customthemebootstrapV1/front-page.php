@@ -133,7 +133,7 @@ get_header(); ?>
     </div>
 </section>
 
-<section class="services">
+<section class="services border-top mb-5">
     <section class="container">
         <section class="row d-flex justify-content-center">
             <div class="col-lg-6 col-md-6">
