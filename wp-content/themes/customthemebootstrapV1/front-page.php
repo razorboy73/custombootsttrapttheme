@@ -84,7 +84,9 @@ get_header(); ?>
         <div class="row d-flex justify-content-center">
             <div class="col-lg-6 col-md-6">
                 <div class="course_cat_text text-center small">
-                    <h2 class="fs-5 fw-600" >Lorem, ipsum dolor sit amet consectetur adipisicing elit</h2>
+                    <?php if ( is_active_sidebar( 'course_cat_text' ) ) : ?>
+			            <?php dynamic_sidebar( 'course_cat_text' ); ?>
+                    <?php endif; ?>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus molestiae consectetur sapiente suscipit veniam saepe tenetur facere, nesciunt error quos ducimus eaque incidunt assumenda qui voluptates in enim? Nesciunt, in!</p>
                     <a href="#" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#signupModal">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">

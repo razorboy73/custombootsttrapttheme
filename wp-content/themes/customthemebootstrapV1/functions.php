@@ -44,6 +44,15 @@ function custom_widgets() {
 		'after_title'   => '',
 	) );
 
+  register_sidebar( array(
+		'name'          => 'Course Catalog Text',
+		'id'            => 'course_cat_text',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '<h2 class="fs-5 fw-600" >',
+		'after_title'   => '</h2>',
+	) );
+
 	register_sidebar( array(
 		'name'          => 'Default Sidebar',
 		'id'            => 'default_sidebar',
