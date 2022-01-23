@@ -42,3 +42,8 @@ body {
 .border-black {
   border-top: 1px solid #3e3e3e;
 }
+
+.feature-holder img {
+  width: 50px;
+  height: auto;
+}
