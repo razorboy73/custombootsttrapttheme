@@ -160,7 +160,12 @@ get_header(); ?>
                     <?php the_content() ?>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6"></div>                
+            <div class="col-lg-6 col-md-6">
+
+            <?php if(has_post_thumbnail()){
+                the_post_thumbnail();
+            }?>
+            </div>                
 
         </div>
     </div>
