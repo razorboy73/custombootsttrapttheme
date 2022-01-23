@@ -135,7 +135,7 @@ get_header(); ?>
 
 <section class="services">
     <section class="container">
-        <section class="row">
+        <section class="row d-flex justify-content-center">
             <div class="col-lg-6 col-md-6">
                     <div class="course_cat_text text-center small">
                         <?php if ( is_active_sidebar( 'services_text' ) ) : ?>
