@@ -52,7 +52,7 @@ get_header(); ?>
             <div class="col-lg-4 col-md-4">
             <div class="d-flex align-items-center feature-holder small border rounded mb-3">
                     <div class="flex-shrink-0">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/time.png" alt="time">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/laptop-metrics.png" alt="time">
                     </div>
                     <div class="flex-grow-1 ms-3">
                     <h3 class="fs-6 fw-600 mt-3" >Simple H3 Feature</h3>
@@ -64,7 +64,7 @@ get_header(); ?>
             <div class="col-lg-4 col-md-4">
             <div class="d-flex align-items-center feature-holder small border rounded mb-3">
                     <div class="flex-shrink-0">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/time.png" alt="time">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/personal-trainer.png" alt="time">
                     </div>
                     <div class="flex-grow-1 ms-3">
                     <h3 class="fs-6 fw-600 mt-3" >Simple H3 Feature</h3>
