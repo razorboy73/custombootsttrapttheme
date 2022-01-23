@@ -38,7 +38,17 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4">
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center feature-holder">
+                    <div class="flex-shrink-0">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/time.png" alt="time">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        This is some content from a media component. You can replace this with any content and adjust it as needed.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="d-flex align-items-center feature-holder">
                     <div class="flex-shrink-0">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/time.png" alt="time">
                     </div>
@@ -48,17 +58,7 @@ get_header(); ?>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4">
-                <div class="d-flex align-items-center">
-                    <div class="flex-shrink-0">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/time.png" alt="time">
-                    </div>
-                    <div class="flex-grow-1 ms-3">
-                        This is some content from a media component. You can replace this with any content and adjust it as needed.
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-                <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center feature-holder">
                     <div class="flex-shrink-0">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/time.png" alt="time">
                     </div>
