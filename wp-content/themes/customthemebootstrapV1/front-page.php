@@ -9,7 +9,7 @@
  */
 get_header(); ?>
 
-<header class="default-holder main-header pt-3 pb-3">
+<header class="default-holder main-header pt-5 pb-5 border-bottom">
  <div class="container">
      <div class="row align-items-center">
          <div class="col-lg-6 col-md-6">
