@@ -134,8 +134,8 @@ get_header(); ?>
 </section>
 
 <section class="services border-top mb-5">
-    <section class="container mt-5">
-        <section class="row d-flex justify-content-center">
+    <div class="container mt-5">
+        <div class="row d-flex justify-content-center">
             <div class="col-lg-6 col-md-6">
                     <div class="course_cat_text text-center small">
                         <?php if ( is_active_sidebar( 'services_text' ) ) : ?>
@@ -149,9 +149,21 @@ get_header(); ?>
                         </a>
                     </div>
                 </div>
-        </section>
-    </section>
+         </div>
+     </div>
 </section>
+<section class="main-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="content-area">
+                    <?php the_content() ?>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6"></div>                
 
+        </div>
+    </div>
+</section>
 
 <?php get_footer(); ?>
