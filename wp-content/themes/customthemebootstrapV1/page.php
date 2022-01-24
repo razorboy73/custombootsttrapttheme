@@ -25,13 +25,18 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
     </div>
 </header>
 
-<section class="page-contents">
+<section class="page-contents border-top pt-3 pb-3">
     <div class="container">
         <div class="row">
             <div class="col-lg-9 col-md-9">
-                <?php the_content();?>
+                <article class="main-content small">
+                    <?php the_content();?>
+                </article>
             </div>
-            <div class="col-lg-3 col-md-3"></div>
+            <div class="col-lg-3 col-md-3">
+                <?php get_sidebar(); ?>
+
+            </div>
         </div>
     </div>
 </section>
