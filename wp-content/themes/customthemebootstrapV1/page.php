@@ -2,7 +2,7 @@
 <?php 
 if ( have_posts() ) : while ( have_posts() ) : the_post(); 
 ?>
-<header class="custom-page-header default-holder pt-3 pb-3">
+<header class="custom-page-header default-holder pt-3 pb-4">
     <div class="container">
         <div class="row align-items-center small">
             <div class="col-lg-6 col-md-6">
@@ -24,6 +24,17 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
         </div>
     </div>
 </header>
+
+<section class="page-contents">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-9">
+                <?php the_content();?>
+            </div>
+            <div class="col-lg-3 col-md-3"></div>
+        </div>
+    </div>
+</section>
 
 <?php endwhile; else :?>
     <p><?php esc_html_e("Sorry, no posts matched your criteria"); ?></p>
