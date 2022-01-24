@@ -1,4 +1,6 @@
 <?php  get_header()?>
 
-Hellow World
+<header class="custom-page-header default-holder">
+    Hello world
+</header>
 <?php get_footer() ?>
