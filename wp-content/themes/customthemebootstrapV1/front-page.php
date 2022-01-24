@@ -162,9 +162,17 @@ get_header(); ?>
             </div>
             <div class="col-lg-6 col-md-6">
 
-            <?php if(has_post_thumbnail()){
-                the_post_thumbnail();
-            }?>
+           
+            <?php
+              if ( has_post_thumbnail() ) { ?>
+               <img class="img-fluid rounded" src="<?php echo get_the_post_thumbnail_url() ?>" alt="<?php echo get_the_title();?>" >
+            
+           <?php }else{ ?>
+             <img class="img-fluid rounded" src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="<?php echo get_the_title();?>" >
+              
+            <?php }
+             
+              ?>
             </div>                
 
         </div>
