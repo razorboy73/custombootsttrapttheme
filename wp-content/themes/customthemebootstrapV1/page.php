@@ -7,7 +7,7 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
         <div class="row">
             <div class="col-lg-6 col-md-6">
                 <div class="page-title-heading">
-                    <?php echo get_the_title("<h1 class='card'>", " </h1>") ?>
+                    <h1><?php echo get_the_title() ?></h1>
                 </div>
             </div>
         </div>
