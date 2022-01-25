@@ -6,8 +6,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6">
-                <div class="cat-header-text">
-                    <h1><?php echo single_cat_title(); ?></h1>
+                <div class="cat-header-text small">
+                    <h1 class ="fs-5" ><?php echo single_cat_title(); ?></h1>
                     <?php echo category_description();?>
                 </div>
             </div>
