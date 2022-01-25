@@ -12,5 +12,7 @@
     );
 
     $(".main-header img").addClass("rounded");
+
+    $("#comments #reply-title").addClass("fs-4");
   });
 })(jQuery);
