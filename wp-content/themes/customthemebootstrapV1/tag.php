@@ -7,7 +7,8 @@
         <div class="row ">
             <div class="col-lg-6 col-md-6">
                 <div class="cat-header-text small">
-                    <h1 class ="fs-5 fw-600" >Tags: <?php echo single_tag_title(); ?></h1>
+                    <h1 class ="fs-5 fw-600" >Tags: <q><?php echo single_tag_title(); ?></q></h1>
+                    <?php echo tag_description(); ?>
                    
                 </div>
             </div>
