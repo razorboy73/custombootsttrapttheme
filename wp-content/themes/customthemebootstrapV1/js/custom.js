@@ -19,5 +19,7 @@
     $(
       "#commentform #comment, #commentform #author, #commentform #email, #commentform #url"
     ).addClass("form-control form-control-sm mb-2");
+
+    $("comment-form-cookies-consent").addClass("mb-2");
   });
 })(jQuery);
