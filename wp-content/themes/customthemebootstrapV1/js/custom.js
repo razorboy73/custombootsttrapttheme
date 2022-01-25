@@ -13,6 +13,6 @@
 
     $(".main-header img").addClass("rounded");
 
-    $("#comments #reply-title").addClass("fs-4");
+    $("#comments #reply-title").addClass("fs-5 fw-600 text-dark");
   });
 })(jQuery);
