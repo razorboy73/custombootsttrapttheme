@@ -20,6 +20,8 @@
       "#commentform #comment, #commentform #author, #commentform #email, #commentform #url"
     ).addClass("form-control form-control-sm mb-2");
 
+    $("#commentform #submit").addClass("btn btn-success btn-sm");
+
     $("comment-form-cookies-consent").addClass("mb-2");
   });
 })(jQuery);
