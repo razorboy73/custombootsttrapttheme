@@ -8,7 +8,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="cat-header-text">
                     <h1><?php echo single_cat_title(); ?></h1>
-                    <p><?php echo category_description();?></p>
+                    <?php echo category_description();?>
                 </div>
             </div>
         </div>
