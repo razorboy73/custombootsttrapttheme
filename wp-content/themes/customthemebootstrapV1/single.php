@@ -32,9 +32,10 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
             <div class="col-lg-9 col-md-9">
                 <article class="main-content small">
                     <?php the_content();?>
-                    <div class="alert alert-secondary" role="alert">
+                    <div class="alert alert-secondary mb-0" role="alert">
                     <p class="postmetadata"><?php _e("Posted in "); ?><?php the_category(', ') ?></p>
                     </div>
+                    <?php comments_template(); ?>
                 </article>
             </div>
             <div class="col-lg-3 col-md-3">
