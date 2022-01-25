@@ -34,7 +34,7 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
                     <?php the_content();?>
                     <div class="alert alert-secondary mb-2" role="alert">
                     <p class="postmetadata"><?php _e("Posted in "); ?><?php the_category(', ') ?></p>
-                    <?php the_tags('Social tagging: ','>'); ?>
+                    <?php the_tags('Social tagging: ',', '); ?>
                 </div>
                     <?php comments_template(); ?>
                 </article>
