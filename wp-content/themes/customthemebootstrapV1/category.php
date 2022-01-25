@@ -2,7 +2,7 @@
 
 
 
-<header class="cat-header">
+<header class="cat-header default-holder">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6">
