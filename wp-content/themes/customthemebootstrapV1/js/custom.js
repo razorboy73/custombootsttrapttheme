@@ -17,7 +17,7 @@
 
     $("#commentform >p").addClass("m-0");
     $(
-      "#commentform #comment, #commentform #author #commentform #email, #commentform #url"
+      "#commentform #comment, #commentform #author, #commentform #email, #commentform #url"
     ).addClass("form-control form-control-sm mb-2");
   });
 })(jQuery);
