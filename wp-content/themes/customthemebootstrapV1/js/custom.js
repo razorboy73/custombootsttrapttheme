@@ -14,5 +14,8 @@
     $(".main-header img").addClass("rounded");
 
     $("#comments #reply-title").addClass("fs-5 fw-600 text-dark");
+
+    $("#commentform >p").addClass("m-0");
+    $("#commentform #comment").addClass("form-control form-control-sm");
   });
 })(jQuery);
