@@ -16,8 +16,8 @@
     $("#comments #reply-title").addClass("fs-5 fw-600 text-dark");
 
     $("#commentform >p").addClass("m-0");
-    $("#commentform #comment, #commentform #author").addClass(
-      "form-control form-control-sm mb-2"
-    );
+    $(
+      "#commentform #comment, #commentform #author #commentform #email, #commentform #url"
+    ).addClass("form-control form-control-sm mb-2");
   });
 })(jQuery);
