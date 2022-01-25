@@ -64,3 +64,10 @@ blockquote {
   background-color: #e3e3e3;
   border-left: 3px solid black;
 }
+
+pre {
+  padding: 15px;
+  background-color: #e3e3e3;
+  border: 1px solid black;
+  border-radius: 5px;
+}
