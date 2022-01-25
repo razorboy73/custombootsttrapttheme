@@ -32,6 +32,7 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
             <div class="col-lg-9 col-md-9">
                 <article class="main-content small">
                     <?php the_content();?>
+                    <p class="postmetadata"><?php _e("Posted in"); ?><?php the_category(', ') ?></p>
                 </article>
             </div>
             <div class="col-lg-3 col-md-3">
