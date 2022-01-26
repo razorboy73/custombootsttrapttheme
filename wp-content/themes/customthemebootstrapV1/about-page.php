@@ -37,21 +37,7 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
     </div>
 </header>
 
-<section class="page-contents border-top pt-3 pb-3">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-9 col-md-9">
-                <article class="main-content small">
-                    <?php the_content();?>
-                </article>
-            </div>
-            <div class="col-lg-3 col-md-3">
-            <?php get_sidebar(); ?>
 
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="services border-top mb-5">
     <div class="container mt-5">
