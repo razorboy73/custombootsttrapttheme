@@ -7,7 +7,7 @@
         <div class="row ">
             <div class="col-lg-6 col-md-6">
                 <div class="cat-header-text small">
-                    <h1 class ="fs-5 fw-600" ><q><?php echo the_archive_title(); ?></q></h1>
+                    <h1 class ="fs-5 fw-600" >Search Results For: <q><?php echo get_search_query( ); ?></q></h1>
                     
                 
                 </div>
