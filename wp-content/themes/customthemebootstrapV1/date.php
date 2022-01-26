@@ -7,8 +7,8 @@
         <div class="row ">
             <div class="col-lg-6 col-md-6">
                 <div class="cat-header-text small">
-                    <h1 class ="fs-5 fw-600" >Author Name: <q><?php echo get_the_author_meta('display_name'); ?></q></h1>
-                    <?php echo get_the_author_meta('description'); ?>
+                    <h1 class ="fs-5 fw-600" ><q><?php echo the_archive_title(); ?></q></h1>
+                    
                 
                 </div>
             </div>
