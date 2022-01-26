@@ -20,7 +20,7 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
             <div class="col-lg-6 col-md-6">
                 <div class="page-title-heading">
                     <h1 class = "fs-4 fw-600"><?php echo get_the_title() ?></h1>
-                    <p><?php echo get_the_excerpt() ?></p>
+                    <p><?php echo the_content(); ?></p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
