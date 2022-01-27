@@ -39,7 +39,7 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
 
 <section class="section-three">
     <div class="container">
-        <div class="row">
+        <div class="row align-item-center">
             <div class="col-lg-6 col-md-6">
                 <div class="who-we-are-image">
                     <img class="img-fluid rounded" src="<?php the_field('who_we_are_image'); ?>" alt="who we are" />
