@@ -37,7 +37,7 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
     </div>
 </header>
 
-<section class="section-three">
+<section class="section-three pt-4 pb-4">
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-lg-6 col-md-6">
