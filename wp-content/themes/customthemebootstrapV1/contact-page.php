@@ -16,6 +16,23 @@
     </div>
 </section>
 
+<section class="contact-main-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4">
+                <form action="">
+                    <input type="text" class="form-control form-control-sm mb-2" placeholder="Your name" required>
+                    <input type="email" class="form-control form-control-sm mb-2" placeholder="Email" required>
+                    <input type="tel" class="form-control form-control-sm mb-2" placeholder="phone" required>
+                    <input type="text" class="form-control form-control-sm mb-2" placeholder="Subject" required>
+                    <textarea rows="5"></textarea>
+                </form>
+            </div>
+            <div class="col-lg-8 col-md-8"></div>
+        </div>
+    </div>
+</section>
+
 
 
 <?php get_footer(); ?>
