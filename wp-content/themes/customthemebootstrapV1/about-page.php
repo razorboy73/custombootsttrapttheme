@@ -37,6 +37,15 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
     </div>
 </header>
 
+<section class="section-three">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6"><img src="<?php the_field('who_we_are_image'); ?>" /></div>
+            <div class="col-lg-6 col-md-6"></div>
+        </div>
+    </div>
+</section>
+
 
 
 <section class="services border-top mb-5">
