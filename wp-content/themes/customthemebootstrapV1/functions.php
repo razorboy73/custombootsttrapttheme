@@ -89,6 +89,15 @@ function custom_widgets() {
 		'after_title'   => '</h4>',
 	) );
 
+  register_sidebar( array(
+		'name'          => 'Contact Form',
+		'id'            => 'contact_form',
+		'before_widget' => '<div class="card">',
+		'after_widget'  => '</div></div>',
+		'before_title'  => '<div class="card-header">',
+		'after_title'   => '</div><div class="card-body">',
+	) );
+
 }
 add_action( 'widgets_init', 'custom_widgets' );
 
