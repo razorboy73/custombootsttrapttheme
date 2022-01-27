@@ -25,7 +25,7 @@
                     <input type="email" class="form-control form-control-sm mb-2" placeholder="Email" required>
                     <input type="tel" class="form-control form-control-sm mb-2" placeholder="phone" required>
                     <input type="text" class="form-control form-control-sm mb-2" placeholder="Subject" required>
-                    <textarea rows="5"></textarea>
+                    <textarea rows="5" class="form-control form-control-sm mb-2" placeholder="Message"></textarea>
                 </form>
             </div>
             <div class="col-lg-8 col-md-8"></div>
