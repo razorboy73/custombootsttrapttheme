@@ -52,24 +52,21 @@ get_header(); ?>
             <div class="col-lg-4 col-md-4">
             <div class="d-flex align-items-center feature-holder small border rounded mb-3">
                     <div class="flex-shrink-0">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/laptop-metrics.png" alt="time">
+                            <img class="img-fluid" src="<?php the_field('feature_two_image'); ?>" alt="time">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                        <?php the_field('feature_two_text'); ?>
+                    
+                        </div>
                     </div>
-                    <div class="flex-grow-1 ms-3">
-                    <h3 class="fs-6 fw-600 mt-3" >Simple H3 Feature</h3>
-                        <p>This is some content from a media component. You can replace this with any content and adjust it as needed.
-                    </p>
-                    </div>
-                </div>
             </div>
             <div class="col-lg-4 col-md-4">
-            <div class="d-flex align-items-center feature-holder small border rounded mb-3">
+                <div class="d-flex align-items-center feature-holder small border rounded mb-3">
                     <div class="flex-shrink-0">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/personal-trainer.png" alt="time">
+                        <img class="img-fluid" src="<?php the_field('feature_three_image'); ?>" alt="time">
                     </div>
                     <div class="flex-grow-1 ms-3">
-                    <h3 class="fs-6 fw-600 mt-3" >Simple H3 Feature</h3>
-                        <p>This is some content from a media component. You can replace this with any content and adjust it as needed.
-                    </p>
+                        <?php the_field('feature_three_text'); ?>
                     </div>
                 </div>
             </div>
