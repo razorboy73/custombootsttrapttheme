@@ -23,14 +23,15 @@
                 <div class="card">
                     <div class="card-header">Send Message</div>
                     <div class="card-body">
-                </div>
-                    <form action="">
-                        <input type="text" class="form-control form-control-sm mb-2" placeholder="Your name" required>
-                        <input type="email" class="form-control form-control-sm mb-2" placeholder="Email" required>
-                        <input type="tel" class="form-control form-control-sm mb-2" placeholder="phone" required>
-                        <input type="text" class="form-control form-control-sm mb-2" placeholder="Subject" required>
-                        <textarea rows="5" class="form-control form-control-sm mb-2" placeholder="Message"></textarea>
-                    </form>
+                
+                        <form action="">
+                            <input type="text" class="form-control form-control-sm mb-2" placeholder="Your name" required>
+                            <input type="email" class="form-control form-control-sm mb-2" placeholder="Email" required>
+                            <input type="tel" class="form-control form-control-sm mb-2" placeholder="phone" required>
+                            <input type="text" class="form-control form-control-sm mb-2" placeholder="Subject" required>
+                            <textarea rows="5" class="form-control form-control-sm mb-2" placeholder="Message"></textarea>
+                        </form>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-8 col-md-8"></div>
