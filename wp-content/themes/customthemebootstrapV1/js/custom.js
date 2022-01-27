@@ -38,5 +38,6 @@ domReady(() => {
 
     $(".section-three h2").addClass("fs-4 fw-600");
     $(".section-four h2").addClass("fs-4 fw-600");
+    $(".features h3").addClass("fs-6 fw-600 mt-3");
   });
 })(jQuery);
