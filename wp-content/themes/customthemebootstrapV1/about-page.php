@@ -46,9 +46,27 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <div class="who-wear-are-text small">
+                <div class="who-we-are-text small">
                     <?php the_field('who_we_are'); ?>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-four pt-4 pb-4 border-top">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="what-we-do-text small">
+                    <?php the_field('what_we_do'); ?>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+            <div class="what-we-do-image">
+                    <img class="img-fluid rounded" src="<?php the_field('what_we_do_image'); ?>" alt="who we are" />
+                </div>
+               
             </div>
         </div>
     </div>
