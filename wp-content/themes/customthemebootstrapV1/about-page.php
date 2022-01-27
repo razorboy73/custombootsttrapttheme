@@ -41,7 +41,9 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6"><img src="<?php the_field('who_we_are_image'); ?>" /></div>
-            <div class="col-lg-6 col-md-6"></div>
+            <div class="col-lg-6 col-md-6">
+            <?php the_field('who_we_are'); ?>
+            </div>
         </div>
     </div>
 </section>
