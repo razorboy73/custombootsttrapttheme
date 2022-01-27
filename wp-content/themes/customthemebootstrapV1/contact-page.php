@@ -23,9 +23,9 @@
                     <?php if ( is_active_sidebar( 'contact_form' ) ) : ?>
 			            <?php dynamic_sidebar( 'contact_form' ); ?>
                         <?php endif; ?>
-                </div>
+            </div>
             <div class="col-lg-8 col-md-8">
-                
+
             </div>
         </div>
     </div>
