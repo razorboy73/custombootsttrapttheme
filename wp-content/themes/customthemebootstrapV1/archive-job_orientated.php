@@ -7,8 +7,8 @@
         <div class="row d-flex justify-content-center">
             <div class="col-lg-6 col-md-6">
                 <div class="cat-header-text small text-center">
-                    <h1 class ="fs-5 fw-600" ><?php echo single_cat_title(); ?></h1>
-                    <?php echo category_description();?>
+                    <h1 class ="fs-5 fw-600" >Job Oriented Courses</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quia dolore cum inventore vitae placeat aspernatur est aliquid non at necessitatibus veritatis sequi tempore libero reiciendis quos beatae molestiae? Possimus?</p>
                 </div>
             </div>
         </div>
