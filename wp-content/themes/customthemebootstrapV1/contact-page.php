@@ -22,7 +22,7 @@
             <div class="col-lg-4 col-md-4">
                     <?php if ( is_active_sidebar( 'contact_form' ) ) : ?>
 			            <?php dynamic_sidebar( 'contact_form' ); ?>
-                        <?php endif; ?>
+                    <?php endif; ?>
             </div>
             <div class="col-lg-8 col-md-8">
 
