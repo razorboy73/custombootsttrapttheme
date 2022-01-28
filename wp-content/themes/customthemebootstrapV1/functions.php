@@ -93,7 +93,7 @@ function custom_widgets() {
 		'name'          => 'Contact Form',
 		'id'            => 'contact_form',
 		'before_widget' => '<div class="card mb-3">',
-		'after_widget'  => '</div></div>',
+		'after_widget'  => '</div>',
 		'before_title'  => '<div class="card-header">',
 		'after_title'   => '</div><div class="card-body">',
 	) );
@@ -198,3 +198,8 @@ class bootstrap_5_wp_nav_menu_walker extends Walker_Nav_menu
 // register a new menu
 register_nav_menu('main-menu', 'Main menu');
 ?>
+
+
+
+
+
