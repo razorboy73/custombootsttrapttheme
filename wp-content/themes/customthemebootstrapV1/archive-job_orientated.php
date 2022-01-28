@@ -47,7 +47,7 @@
               <div class="col-lg-8 col-md-8">
                 <h3 class="fs-5 fw-600"><?php echo get_the_title(); ?></h3> 
                 <p><?php echo get_the_excerpt( ) ?></p>
-                <p><span class="badge bg-primary"><strong>Course Fee: <?php echo the_field('course_fee');?> </strong></span> <span class="badge bg-success">Durtion: <?php echo the_field('duration');?></span></p>
+                <p><span class="badge bg-primary"><strong>Course Fee: <?php echo the_field('course_fee');?> </strong></span> <span class="badge bg-success">Durtion: <?php echo the_field('course_duration');?></span></p>
               </div>
             </div>
           </a>
