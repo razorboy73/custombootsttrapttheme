@@ -92,7 +92,7 @@ function custom_widgets() {
   register_sidebar( array(
 		'name'          => 'Contact Form',
 		'id'            => 'contact_form',
-		'before_widget' => '<div class="card">',
+		'before_widget' => '<div class="card mb-3">',
 		'after_widget'  => '</div></div>',
 		'before_title'  => '<div class="card-header">',
 		'after_title'   => '</div><div class="card-body">',
