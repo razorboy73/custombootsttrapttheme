@@ -29,7 +29,7 @@
 
                 if ( ! empty ( $table ) ) {
 
-                    echo '<table border="0">';
+                    echo '<table border="0" class="table border">';
 
                         if ( ! empty( $table['caption'] ) ) {
 
