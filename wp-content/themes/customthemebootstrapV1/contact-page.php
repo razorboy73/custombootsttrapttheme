@@ -25,7 +25,7 @@
                     <?php endif; ?>
             </div>
             <div class="col-lg-8 col-md-8">
-            $table = get_field( 'hours' );
+            <?php $table = get_field( 'hours' );
 
                 if ( ! empty ( $table ) ) {
 
@@ -73,7 +73,7 @@
                         echo '</tbody>';
 
                     echo '</table>';
-                }
+                } ?>
             </div>
         </div>
     </div>
