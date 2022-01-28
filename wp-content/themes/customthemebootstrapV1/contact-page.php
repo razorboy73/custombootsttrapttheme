@@ -25,7 +25,7 @@
                     <?php endif; ?>
             </div>
             <div class="col-lg-8 col-md-8">
-
+                        <?php the_field("hours");?>
             </div>
         </div>
     </div>
