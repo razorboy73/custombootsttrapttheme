@@ -79,6 +79,6 @@ pre {
   padding: 0px;
 }
 
-.course-syllabus ul > {
+.course-syllabus ul > li {
   display: inline-block;
 }
