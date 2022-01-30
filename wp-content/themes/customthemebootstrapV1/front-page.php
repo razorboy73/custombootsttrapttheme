@@ -25,9 +25,14 @@ get_header(); ?>
          </div>
     
          <div class="col-lg-6 col-md-6">
-         <?php if ( is_active_sidebar( 'front_page_banner_image' ) ) : ?>
-			      <?php dynamic_sidebar( 'front_page_banner_image' ); ?>
-            <?php endif; ?>
+        <?php if (is_user_logged_in(  )):
+                 if ( is_active_sidebar( 'front_page_banner_image' ) ) : 
+			      dynamic_sidebar( 'front_page_banner_image' ); 
+                endif; 
+            else:
+                echo "Welcome bitches";
+            endif; ?>
+
              </div>
      </div>
 
