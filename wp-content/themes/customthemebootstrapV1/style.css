@@ -81,4 +81,9 @@ pre {
 
 .course-syllabus ul > li {
   display: inline-block;
+  background-color: purple;
+  color: white;
+  padding: 12px;
+  margin: 5px;
+  max-width: 300px;
 }
