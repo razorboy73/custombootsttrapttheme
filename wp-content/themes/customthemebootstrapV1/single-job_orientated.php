@@ -66,7 +66,7 @@
         <div class="col-lg-6 col-md-6">
                 <div class="course-description small">
                     <h2 class="fs-5 fw-600">Course Syllabus</h2>
-                    <?php the_content(); ?>
+                    <?php echo the_field("course_syllabus"); ?>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
