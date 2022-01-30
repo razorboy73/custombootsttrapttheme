@@ -9,11 +9,10 @@
             <div class="course-excerpt small">
                 <h1 class="fs-5 fw-6--"><?php echo get_the_title(); ?></h1>
                 <p><?php echo get_the_excerpt(); ?></p>
-                <p><span class="badge bg-primary"><strong>Course Fee:</strong> <?php echo the_field('course_fee');?> </span> <span class="badge bg-success"><strong>Duration:</strong> <?php echo the_field('course_duration');?></span></p>
-      
+                
             </div>
 
-            <a href="<?php the_field("course_link") ?>" class="btn btn-success btn-small"> Sign up now</a>
+            <a href="<?php the_field("course_link")?>" target="_blank" class="btn btn-success btn-small"> Sign up now</a>
          </div>
     
          <div class="col-lg-6 col-md-6">
