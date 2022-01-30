@@ -44,9 +44,10 @@
                     $value = get_field("course_description_image");
                     if ($value){ ?>
                        <img src ="<?php echo $value; ?>" alt="<?php get_the_title(); ?>"> 
-                  <?php  } else {
-                        echo "empty";
-                    };
+                  <?php  } else { ?>
+                       <img class="img-fluid rounded" src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="<?php echo get_the_title();?>" >
+                    
+                    <?php };
                     ?>
             </div>
         </div>
