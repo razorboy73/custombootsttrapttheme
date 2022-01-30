@@ -43,7 +43,7 @@
                 <?php
                     $value = get_field("course_description_image");
                     if ($value){ ?>
-                       <img src ="<?php $value; ?>;" alt=""> 
+                       <img src ="<?php echo $value; ?>" alt=""> 
                   <?php  } else {
                         echo "empty";
                     };
