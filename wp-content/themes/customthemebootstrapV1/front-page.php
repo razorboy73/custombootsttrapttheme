@@ -95,7 +95,7 @@ get_header(); ?>
         </div>
         <div class="row mt-5 mb-3">
             <div class="col-lg-3 col-md-3">
-                <a href="#" class="card text-decoration-none text-dark text-center mb-3">
+                <a href="<?php bloginfo("url"); ?>/job-orientated/" class="card text-decoration-none text-dark text-center mb-3">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Job-Oriented-Courses-in-Bangalore.jpg" alt="Job Orientated Courses">
                     <div class="card-body">
                         <h3 class="m-0 fs-6 fw-600">Job Orientated Courses</h3>
