@@ -20,10 +20,14 @@
          </div>
     
          <div class="col-lg-6 col-md-6">
-         <?php if ( is_active_sidebar( 'front_page_banner_image' ) ) : ?>
-			      <?php dynamic_sidebar( 'front_page_banner_image' ); ?>
-            <?php endif; ?>
-            
+                <?php
+                    if ( has_post_thumbnail() ) { ?>
+                    <img class="img-fluid rounded" src="<?php echo get_the_post_thumbnail_url() ?>" alt="<?php echo get_the_title();?>" >
+                    
+                <?php }else{ ?>
+                    <img class="img-fluid rounded" src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="<?php echo get_the_title();?>" >
+                    
+                <?php } ?>
              </div>
      </div>
  
