@@ -42,9 +42,9 @@
             <div class="col-lg-6 col-md-6">
                 <?php
                     $value = get_field("course_description_image");
-                    if ($value){
-                        echo $value;
-                    } else {
+                    if ($value){ ?>
+                       <img src ="<?php $value; ?>;" alt=""> 
+                  <?php  } else {
                         echo "empty";
                     };
                     ?>
