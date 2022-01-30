@@ -36,7 +36,7 @@
 </header>
 
 
-<section class="course-description pt-4 pb-4">
+<section class="course-description pt-4 pb-4 border-bottom">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6">
