@@ -72,3 +72,9 @@ pre {
   border: 1px solid black;
   border-radius: 5px;
 }
+
+.course-syllabus ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
