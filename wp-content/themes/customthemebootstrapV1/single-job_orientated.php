@@ -34,6 +34,24 @@
 
  </div>
 </header>
+
+
+<section class="course-description">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <?_publish_post_hook( $post_id:integer )
+                    $value = get_field("course_description_image")
+                    if ($value){
+                        echo $value;
+                    } else {
+                        echo "empty";
+                    };
+                    ?>
+            </div>
+        </div>
+    </div>
+</section>
 <?php endwhile; else : ?>
 	<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
 <?php endif; ?>
