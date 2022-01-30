@@ -36,9 +36,9 @@
 </header>
 
 
-<section class="course-description">
+<section class="course-description pt-4 pb-4">
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-lg-6 col-md-6">
                 <?php
                     $value = get_field("course_description_image");
