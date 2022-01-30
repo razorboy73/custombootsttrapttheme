@@ -9,6 +9,8 @@
             <div class="course-excerpt small">
                 <h1 class="fs-5 fw-6--"><?php echo get_the_title(); ?></h1>
                 <p><?php echo get_the_excerpt(); ?></p>
+                <p><span class="badge bg-primary"><strong>Course Fee:</strong> <?php echo the_field('course_fee');?> </span> <span class="badge bg-success"><strong>Duration:</strong> <?php echo the_field('course_duration');?></span></p>
+      
             </div>
 
             <a href="#" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#signupModal">
