@@ -50,6 +50,11 @@
                     <?php };
                     ?>
             </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="course-description">
+                    <?php the_content(); ?>
+                </div>
+            </div>
         </div>
     </div>
 </section>
