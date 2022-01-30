@@ -40,8 +40,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6">
-                <?_publish_post_hook( $post_id:integer )
-                    $value = get_field("course_description_image")
+                <?php
+                    $value = get_field("course_description_image");
                     if ($value){
                         echo $value;
                     } else {
