@@ -59,6 +59,31 @@
         </div>
     </div>
 </section>
+
+<section class="course-syllabus pt-4 pb-4">
+    <div class="container">
+        <div class="row align-items-center">
+        <div class="col-lg-6 col-md-6">
+                <div class="course-description small">
+                    <h2 class="fs-5 fw-600">Course Syllabus</h2>
+                    <?php the_content(); ?>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <?php
+                    $value = get_field("course_syllabus_image");
+                    if ($value){ ?>
+                       <img class="img-fluid rounded" src ="<?php echo $value; ?>" alt="<?php get_the_title(); ?>"> 
+                  <?php  } else { ?>
+                       <img class="img-fluid rounded" src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="<?php echo get_the_title();?>" >
+                    
+                    <?php };
+                    ?>
+            </div>
+            
+        </div>
+    </div>
+</section>
 <?php endwhile; else : ?>
 	<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
 <?php endif; ?>
