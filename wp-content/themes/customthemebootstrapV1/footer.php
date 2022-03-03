@@ -12,6 +12,7 @@
         <div class="row">
             
                     <?php if ( is_active_sidebar( 'widgetized_footer' ) ) : ?>
+                        <!-- check to see if it is active by seeing if the area has one widget
 			      <?php dynamic_sidebar( 'widgetized_footer' ); ?>
             <?php endif; ?>
                
