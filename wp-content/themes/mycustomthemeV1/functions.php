@@ -42,7 +42,7 @@ add_action( 'after_setup_theme', 'wpdocs_after_setup_theme' );
 	 register_nav_menu("footer-nav", "Footer Nav");
  }
 
- add_action("after_setup_theme", "footer-nav")
+ add_action("after_setup_theme", "footer-nav");
 
 /**
  * Register our sidebars and widgetized areas.
