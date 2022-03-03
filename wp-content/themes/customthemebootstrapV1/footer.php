@@ -11,8 +11,8 @@
     <div class="container">
         <div class="row">
             
-                    <?php if ( is_active_sidebar( 'footer_widgets' ) ) : ?>
-			      <?php dynamic_sidebar( 'footer_widgets' ); ?>
+                    <?php if ( is_active_sidebar( 'widgetized_footer' ) ) : ?>
+			      <?php dynamic_sidebar( 'widgetized_footer' ); ?>
             <?php endif; ?>
                
         </div>
