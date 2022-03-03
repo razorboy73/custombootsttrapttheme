@@ -108,7 +108,7 @@ function custom_widgets() {
 	    'after_widget'  => "</li>\n",
 	    'before_title'  => '<h2 class="widgettitle">',
 	    'after_title'   => "</h2>",
-  ))
+  ));
 
 }
 add_action( 'widgets_init', 'custom_widgets' );
