@@ -6,10 +6,10 @@
            <div>
 
             <?php
-           wp_nav_menu(array(
-               "theme_location" => "footer-nav",
-                'menu'            => '',
-           ));
+        //    wp_nav_menu(array(
+        //        "theme_location" => "footer-nav",
+        //         'menu'            => '',
+        //    ));
 
            ?>
            </div>
