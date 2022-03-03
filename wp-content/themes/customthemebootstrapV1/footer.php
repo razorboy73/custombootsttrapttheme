@@ -8,6 +8,16 @@
                
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+            
+                    <?php if ( is_active_sidebar( 'footer_widgets' ) ) : ?>
+			      <?php dynamic_sidebar( 'footer_widgets' ); ?>
+            <?php endif; ?>
+               
+        </div>
+    </div>
+
 </footer>
 
 <div class="copy bg-dark pb-3 pt-3 border-black">
